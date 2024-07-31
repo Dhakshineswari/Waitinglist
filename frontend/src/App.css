@@ -1,0 +1,422 @@
+/* Add this CSS to your App.css file */
+/* Example for a specific element */
+.body {
+  background-color: #F0EEF8;
+  /* Other properties for the background image */
+  background-size: cover; /* Resize the image to cover the element */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-attachment: fixed; /* Make the background fixed (scrolls with the page) */
+  background-blend-mode: overlay; /* Optional: Blend mode for effect */
+}
+
+
+.nav-link {
+  transition: color 0.3s ease, border-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  border-bottom: 2px solid transparent;
+}
+/* App.css or animations.css */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+/* Add this to your App.css file */
+
+/* Keyframes for fade-in effect */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Animation class for fade-in */
+.fade-in {
+  animation: fadeIn 1s ease-in;
+}
+
+/* Adjust the size of the login box */
+.login-box {
+  width: 100%;
+  max-width: 600px; /* Increased max-width for a larger login box */
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Add hover effect */
+.login-box:hover {
+  transform: scale(1.05);
+}
+/* Keyframes for fade-in effect */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Animation class for fade-in */
+.fade-in {
+  animation: fadeIn 1s ease-in;
+}
+
+/* Adjust the size of the registration box */
+.registration-box {
+  width: 100%;
+  max-width: 600px; /* Increased max-width for a larger registration box */
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  transition: transform 0.3s ease-in-out;
+}
+
+
+/* Add hover effect */
+.registration-box:hover {
+  transform: scale(1.05);
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+.bounce {
+  animation: bounce 2s infinite;
+}
+
+
+
+.nav-link:hover {
+  color: #a855f7; /* Tailwind violet-400 */
+  border-color: #a855f7; /* Tailwind violet-400 */
+}
+
+.active-link {
+  color: #a855f7; /* Tailwind violet-400 */
+  border-color: #a855f7; /* Tailwind violet-400 */
+}
+
+button svg {
+  transition: transform 0.3s ease;
+}
+
+button:hover svg {
+  transform: scale(1.1);
+}
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Tailwind CSS for responsiveness (if not using Tailwind, add these classes manually) */
+.table-auto {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.min-w-full {
+  min-width: 100%;
+}
+
+.overflow-x-auto {
+  overflow-x: auto;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.p-3 {
+  padding: 0.75rem;
+}
+
+.bg-gray-700 {
+  background-color: #374151;
+}
+
+.dark:bg-gray-300 {
+  background-color: #d1d5db;
+}
+
+.bg-gray-900 {
+  background-color: #1f2937;
+}
+
+.dark:bg-gray-50 {
+  background-color: #f9fafb;
+}
+
+.border-b {
+  border-bottom-width: 1px;
+}
+
+.border-opacity-20 {
+  border-opacity: 0.2;
+}
+
+.border-gray-700 {
+  border-color: #374151;
+}
+
+.dark:border-gray-300 {
+  border-color: #d1d5db;
+}
+
+.transition-transform {
+  transition: transform 0.2s;
+}
+
+.transform {
+  transform: scale(1);
+}
+
+.hover\:scale-105:hover {
+  transform: scale(1.05);
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+//dashboard div css
+/* Define the bouncing animation */
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+/* Apply animation and card styles */
+.bouncing-card {
+  animation: bounce 3s infinite;
+  border-radius: 0.8rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 1.0);
+  background-color: white;
+  overflow: hidden;
+  padding: 1.5rem;
+}
+
+.card-header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.card-content {
+  text-align: center;
+}
+
+/* Keyframes for fade-in effect */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Animation class for fade-in */
+.fade-in {
+  animation: fadeIn 1s ease-in;
+}
+
+/* Adjust the size and style of the form box */
+.reset-password-box {
+  width: 100%;
+  max-width: 500px; /* Adjust as needed */
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  transition: transform 0.3s ease-in-out;
+  margin: auto;
+}
+
+/* Add hover effect */
+.reset-password-box:hover {
+  transform: scale(1.05);
+}
+
+/* Additional styling */
+.reset-password input {
+  display: block;
+  width: calc(100% - 2rem);
+  margin: 0.5rem auto;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.reset-password button {
+  background-color: #007bff;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.reset-password button:hover {
+  background-color: #0056b3;
+}
+
+.reset-password p {
+  margin-top: 1rem;
+  color: #d9534f;
+}
+/* Register Section Styles */
+.register-section {
+  background-color: #F0EEF8; /* Background color for the section */
+  color: #000000; /* Font color for the section */
+}
+.login-section {
+  background-color: #F0EEF8; /* Background color for the section */
+  color: #000000; /* Font color for the section */
+}
+.home{
+  background-color: #F0EEF8; /* Background color for the section */
+  color: #000000;
+}
+.dashboard {
+  background-color: #F0EEF8; /* Background color for the section */
+  color: #000000;
+}
+
+.Footer{
+  background-color:#F0EEF8;
+}
+
+
+.registration-box {
+  padding: 32px; /* Adjust padding as needed */
+  border: 2px solid #ddd; /* Example border style */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Example shadow effect */
+  border-radius: 8px; /* Rounded corners */
+  max-width: 500px; /* Set a max-width for the box */
+  margin: 0 auto; /* Center the box */
+}
+
+/* Fade-in animation */
+.fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Animation for the image slider */
+@keyframes slideIn {
+  0% {
+    transform: translateX(-10%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideOut {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(10%);
+    opacity: 0;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
+.animate-move {
+  animation: slideIn 1s ease-in-out;
+}
+
+.fixed-image {
+  animation: slideIn 2s ease-in-out infinite alternate;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

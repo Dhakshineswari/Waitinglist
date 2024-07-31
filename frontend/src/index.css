@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Default background color */
+body {
+  background-color: #c4b5fd;
+  color: #000000; /* Adjust text color if necessary */
+}
+
+/* Dark mode background color */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #000000;
+    color: #c4b5fd; /* Adjust text color if necessary */
+  }
+}
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
